@@ -127,7 +127,7 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  background-image: url("/assets/01.png");
+  background-image: url("assets/01.png");
   background-size: cover;
   background-position: center;
   color: white;
