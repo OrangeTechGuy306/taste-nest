@@ -67,7 +67,7 @@
   padding-block: 10px;
 }
 
-.testnest-nav > img {
+.testnest-nav>img {
   width: 150px;
   height: 73px;
 }
@@ -154,101 +154,217 @@
 }
 
 
-.hero-text-btns{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.hero-text-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-.hero-menu-btn{
-    border: 3px solid var(--primary-color);
-    width: 180.41px;
-    height: 68.19px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-}
-
-
-.hero-menu-btn button{
-    width: 189.91px;
-    height: 55px;
-    border-radius: 12px;
-    background-color: var(--primary-color);
-    color: white;
-    font-family: var(--fredoka-font);
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    margin-left: -20px;
+.hero-menu-btn {
+  border: 3px solid var(--primary-color);
+  width: 180.41px;
+  height: 68.19px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
 }
 
 
-.hero-text-btns button:nth-child(2){
-    font-family: var(--fredoka-font);
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    line-height: 25px;
+.hero-menu-btn button {
+  width: 189.91px;
+  height: 55px;
+  border-radius: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--fredoka-font);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin-left: -20px;
 }
 
-.hero-card{
-    width: 399.22px;
-    height: 192px;
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 25px;
-    align-items: center;
-    border: 3px solid var(--secondary-color);
-    border-radius: 30px;
-    background-color: #000000CC;
-    position: relative;
+
+.hero-text-btns button:nth-child(2) {
+  font-family: var(--fredoka-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  line-height: 25px;
 }
 
-.hero-card > img{
-    width: 150px;
-    height: 150px;
+.hero-card {
+  width: 399.22px;
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+  align-items: center;
+  border: 3px solid var(--secondary-color);
+  border-radius: 30px;
+  background-color: #000000CC;
+  position: relative;
 }
 
-.hero-card h1{
-    font-size: 28px;
-    font-family: var(--fredoka-font);
-    font-weight: 300px;
-}
-.hero-card h2{
-    font-size: 22px;
-     font-family: var(--fredoka-font);
-     margin-block: 10px;
+.hero-card>img {
+  width: 150px;
+  height: 150px;
 }
 
-.hero-card-label{
-    width: 125px;
-    height: 26.33px;
-    border-radius: 5px;
-    color: white;
-    background-color: var(--primary-color);
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: -15px;
-    right: 40px;
+.hero-card h1 {
+  font-size: 28px;
+  font-family: var(--fredoka-font);
+  font-weight: 300;
 }
 
-.hero-card-label p{
-    font-family: var(--epilogue-font);
-    font-size: 14px;
-    font-weight: normal;
+.hero-card h2 {
+  font-size: 22px;
+  font-family: var(--fredoka-font);
+  margin-block: 10px;
 }
 
-.hero-card-container{
-    height: 80vh;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 50px;
+.hero-card-label {
+  width: 125px;
+  height: 26.33px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--primary-color);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -15px;
+  right: 40px;
+}
+
+.hero-card-label p {
+  font-family: var(--epilogue-font);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.hero-card-container {
+  height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.crispy {
+  background-image: url("assets/wall.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 405.7200012207031px;
+  height: 331.19000244140625px;
+  border-radius: 9px;
+  padding: 20px;
+  margin: 100px 0px 20px 20px;
+  position: relative;
+
+}
+
+.crispy span {
+  color: #FFFFFF;
+  font-size: 13.67px;
+  line-height: 33.8px;
+}
+
+.crispy:nth-child(2) {
+  background-image: url("assets/french-fries-bg.png");
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 33.8px;
+  font-family: var(--oswald-font);
+}
+
+.crispy-text {
+  margin-left: 10px;
+}
+
+.crispy h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+  color: #FFC222;
+  margin-top: 30px;
+  font-family: var(--oswald-font);
+}
+
+.crispy h1 {
+  font-size: 38px;
+  font-family: var(--oswald-font);
+  line-height: 49.4px;
+  color: #FFFFFF;
+  margin-block: 20px;
+}
+
+.crispy button {
+  font-style: var(--oswald-font);
+  font-weight: 500;
+  font-size: 17px;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+}
+
+.pizz {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.pizz img {
+  width: 277px;
+  height: 168px;
+}
+
+.crispy h1:nth-child(2) {
+  font-family: var(--oswald-font);
+  color: #FFFFFF;
+  margin-block: 0;
+  padding-block: 0;
+}
+
+.crispy h1 span:nth-child(2) {
+  font-family: var(--oswald-font);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.french {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.french img {
+  width: 221px;
+  height: 277px;
+}
+.crispy-btn i {
+  position: relative;
+}
+
+.crispy-btn i::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 14px;
+  background-color: #007BFF;
+  left: 50%;
+  bottom: -18px;
+  transform: translateX(-50%);
 }
