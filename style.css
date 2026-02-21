@@ -31,6 +31,8 @@
   --navbutton-color: #ffc222;
   --fredoka-font: "Fredoka", sans-serif;
   --epilogue-font: "Epilogue", sans-serif;
+  --input-home2:#E4E4E4;
+  --fredoka-text-home2:#555555;
 }
 
 /* FONT START */
@@ -67,7 +69,7 @@
   padding-block: 10px;
 }
 
-.testnest-nav > img {
+.testnest-nav>img {
   width: 150px;
   height: 73px;
 }
@@ -154,101 +156,501 @@
 }
 
 
-.hero-text-btns{
+.hero-text-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-menu-btn {
+  border: 3px solid var(--primary-color);
+  width: 180.41px;
+  height: 68.19px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.hero-menu-btn button {
+  width: 189.91px;
+  height: 55px;
+  border-radius: 12px;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--fredoka-font);
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin-left: -20px;
+}
+
+
+.hero-text-btns button:nth-child(2) {
+  font-family: var(--fredoka-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  line-height: 25px;
+}
+
+.hero-card {
+  width: 399.22px;
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+  align-items: center;
+  border: 3px solid var(--secondary-color);
+  border-radius: 30px;
+  background-color: #000000CC;
+  position: relative;
+}
+
+.hero-card>img {
+  width: 150px;
+  height: 150px;
+}
+
+.hero-card h1 {
+  font-size: 28px;
+  font-family: var(--fredoka-font);
+  font-weight: 300px;
+}
+
+.hero-card h2 {
+  font-size: 22px;
+  font-family: var(--fredoka-font);
+  margin-block: 10px;
+}
+
+.hero-card-label {
+  width: 125px;
+  height: 26.33px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--primary-color);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -15px;
+  right: 40px;
+}
+
+.hero-card-label p {
+  font-family: var(--epilogue-font);
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.hero-card-container {
+  height: 80vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+}
+
+/* FOR HOME2, PROGRAMMED BY AYETHANE.*/
+  /* HOME2-HERO1 */
+    .hero1-home2 {
+      background-image: url(assets/home2bg.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height:100vh;
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+    }
+
+    .hero1-home2-main{
+      width: 1330px;
+      height: 650px;
+
+      padding-inline:50px;
+
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+
+      /* background-color: #00ffff; */
+    }
+    
+    /* HOME2-HERO1 HEADER TEXT */
+      .hero1-home2-text{
+        width:495.55px;
+        height:144px;
+      }
+      .hero1-home2-text h1{
+        font-family:var(--fredoka-font);
+        font-size:60px;
+      }
+      .hero1-home2-text div{
+        background-color: var(--secondary-color);
+        border-radius:100px;
+        width:535.55px;
+        margin-inline:-20px;
+      }
+      .hero1-home2-text div h1{
+        border-radius:100px;
+        width:535.55px;
+        margin-inline:20px;
+      }
+    /* END OF HOME2-HERO1 HEADER TEXT */
+
+    /* HOME2-HERO-SUBTITLE */
+      .hero1-home2-subtitle{
+        width:316.12px;
+        height:30px;
+
+        margin-top:15px;
+      }
+      .hero1-home2-subtitle p{
+        font-size:18px;
+        font-family: var(--fredoka-font);
+        font-weight:bold;
+        text-transform:uppercase;
+        color:var(--fredoka-text-home2);
+      }
+    /* END OF HOME2-HERO-SUBTITLE */
+
+    /* HOME2-HERO INPUTS AND BUTTONS*/
+      .hero1-home2-inputs{
+        width:571.5px;
+        height:235px;
+
+        margin-top:30px;
+
+        display:flex;
+        flex-direction: column;
+        gap:20px;
+      }
+      .hero1-home2-number-input input{
+        width:571.5px;
+        height:60px;
+        border-radius:7px;
+        border:3px solid var(--input-home2)
+      }
+      .hero1-home2-datetime-inputs{
+        display:flex;
+        justify-content: space-between;
+      }
+      .hero1-home2-datetime-inputs input:nth-child(1){
+        width:270.75px;
+        height:60px;
+        border-radius:7px;
+        border:3px solid var(--input-home2);
+      }
+      .hero1-home2-datetime-inputs input:nth-child(2){
+        width:270.75px;
+        height:60px;
+        border-radius:7px;
+        border:3px solid var(--input-home2);
+      }
+    /* END OF HOME2-HERO INPUTS AND BUTTONS*/
+  /* END OF HOME2-HERO1 */
+
+  /* HOME2-HERO2 */
+      .hero2-home2{
+        padding-block:100px;
+      }
+      .welcome-to-foodio{
+        padding:10px;
+
+        width:1330px;
+        height:555px;
+
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+        margin:auto;
+      }
+
+      .hero2-home2-1st-div img{
+        width:369px;
+        height:525px;
+
+        border-radius:170px;
+      }
+
+      .hero2home2-2nd-div{
+        display:flex;
+        flex-direction:column;
+        justify-items: center;
+        gap:20px;
+
+        text-align:center;
+      }
+
+      .hero2home2-2nd-div-headertext{
+        width:233.31px;
+        height:30px;
+
+        margin:auto;
+      }
+      .hero2home2-2nd-div-headertext h1{
+        font-family:var(--fredoka-font);
+        color:var(--primary-color);
+
+        font-size:18px;
+        letter-spacing: 2px;
+        line-height:30px;
+
+        text-transform:uppercase;
+      }
+
+      .hero2home2-2nd-div-second-header{
+        width:427.05px;
+        height:150.19px;
+
+        margin:auto;
+      }
+      .hero2home2-2nd-div-second-header h1{
+        font-size:60px;
+        line-height:72px;
+
+        font-family:var(--fredoka-font);
+        color:#000000
+      }
+
+      .hero2home2-2nd-div-sample-text{
+        width:426.69px;
+        height:80.82px;
+
+        margin:auto;
+      }
+      .hero2home2-2nd-div-sample-text p{
+        font-family:var(--epilogue-font);
+
+        font-size:16px;
+        line-height:26.67px;
+
+        color:var(--fredoka-text-home2);
+      }
+
+      .hero2home2-2nd-div-openhours{
+        width:502px;
+        height:26.66px;
+
+        margin:auto;
+      }
+      .hero2home2-2nd-div-openhours p{
+        font-size:16px;
+        line-height:26.67px;
+
+        font-family:var(--fredoka-font);
+        font-weight:bold;
+
+        color:var(--fredoka-text-home2)
+      }
+
+      .hero2home2-2nd-div-phone-number{
+        width:502px;
+        height:39.98px;
+
+        margin:auto;
+      }
+      .hero2home2-2nd-div-phone-number h1{
+        font-size:24px;
+        line-height:40px;
+
+        font-family:var(--fredoka-font);
+        font-weight:bold;
+        color:#000000;
+        text-decoration:underline
+      }
+
+      .hero2-home2-3rd-main-div-top img{
+        width:353px;
+        height:221px;
+        border-radius:170px;
+      }
+      .hero2-home2-3rd-main-div{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:space-between;
+
+        gap:70px;
+      }
+      .hero2-home2-3rd-main-div-bottom{
+        background: url(assets/im3.png);
+
+        width:228px;
+        height:228px;
+
+        display:flex;
+        align-items:center;
+        justify-content: center;
+      }
+      .hero2-home2-3rd-main-div-bottom img{
+        width:161px;
+        height:161px;
+
+        border-radius:50%;
+      }
+    /* END OF HOME2-HERO2 */
+
+  /* END OF HOME2-HERO2 */
+
+
+  /* START OF HOME2-HERO3 */
+  .hero3-home2{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+    width:1330px;
+    height:558.06px;
+    
+    margin-inline:auto;
+    margin-block-end:50px;
+  }
+
+  .hero3-home2-div1 {
+    width:402.64px;
+    height:228.38px;
+  }
+  .hero3-home2-div1  h1{
+    font-size:60px;
+    line-height:72px;
+    font-family:var(--fredoka-font);
+    color:#000000;
+  }
+  
+
+  .hero3-home2-div2{
+    width:515.3px;
+    height:518.06px;
+  }
+  .discount-20-img{
+    position:absolute;
+  }
+  .discount-20-img img{
+    width:515.3px;
+    height:518.06px;
+  }
+  .discount-20-offer{
+    position:relative;
+    top:20px;
+    left:-30px;
+
+    width:190px;
+    height:190px;
+    border-radius:50%;
+    background: var(--secondary-color);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  .discount-20-offer-inner{
+    width: 180.5px;
+    height: 180.5px;
+    background: var(--secondary-color);
+    border: 3px solid #000000;
+    border-radius: 50%;
+    
     display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.hero-menu-btn{
-    border: 3px solid var(--primary-color);
-    width: 180.41px;
-    height: 68.19px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-}
-
-
-.hero-menu-btn button{
-    width: 189.91px;
-    height: 55px;
-    border-radius: 12px;
-    background-color: var(--primary-color);
-    color: white;
-    font-family: var(--fredoka-font);
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    margin-left: -20px;
-}
-
-
-.hero-text-btns button:nth-child(2){
-    font-family: var(--fredoka-font);
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    background-color: transparent;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    line-height: 25px;
-}
-
-.hero-card{
-    width: 399.22px;
-    height: 192px;
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 25px;
-    align-items: center;
-    border: 3px solid var(--secondary-color);
-    border-radius: 30px;
-    background-color: #000000CC;
-    position: relative;
-}
-
-.hero-card > img{
-    width: 150px;
-    height: 150px;
-}
-
-.hero-card h1{
-    font-size: 28px;
-    font-family: var(--fredoka-font);
-    font-weight: 300px;
-}
-.hero-card h2{
-    font-size: 22px;
-     font-family: var(--fredoka-font);
-     margin-block: 10px;
-}
-
-.hero-card-label{
-    width: 125px;
-    height: 26.33px;
-    border-radius: 5px;
-    color: white;
-    background-color: var(--primary-color);
-    position: absolute;
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: -15px;
-    right: 40px;
-}
+  }
+  .discount-20-offer-inner p{
+    font-family:var(--fredoka-font);
+    font-size:16px;
 
-.hero-card-label p{
-    font-family: var(--epilogue-font);
-    font-size: 14px;
-    font-weight: normal;
-}
+    font-weight:bold;
 
-.hero-card-container{
-    height: 80vh;
-    display: flex;
-    align-items: flex-end;
-    padding-bottom: 50px;
-}
+    color: #000000;
+
+    text-transform:uppercase;
+  }
+  .discount-20-offer-inner h1{
+    font-family:var(--fredoka-font);
+    font-size:60px;
+
+    font-weight:bold;
+
+    color:#000000;
+  }
+
+  .hero3-home2-div3{
+    display:flex;
+    flex-direction:column;
+
+    gap:30px;
+  }
+
+  .hero3-home2-info{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items:center;
+  }
+  .hero3-home2-info div{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:20px;
+  }
+  .hero3-home2-info div img{
+    width:19.31px;
+    height:19px;
+  }
+  .hero3-home2-info div p{
+    width:266.43px;
+    height:30px;
+
+    font-size:18px;
+    line-height:30px;
+
+    font-family:var(--fredoka-font);
+    color:var(--fredoka-text-home2);
+    font-weight:bold;
+  }
+  .hero-three-home2-reserve-button{
+    margin:20px;
+  }
+
+  /* END OF HOME2-HERO3 */
+
+  /* START OF HOME2-HERO4 */
+  .home2-hero4{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  .sponsortext{
+    width:375.16px;
+    height:46.66px;
+  }
+  .sponsortext h1{
+    font-size:28px;
+    line-height:46.66px;
+    font-family: var(--fredoka-font);
+    color:#000000;
+
+    text-transform: uppercase;
+  }
+
+  .sponsorimages{
+    display:flex;
+    flex-direction:row;
+
+    align-items:center;
+    justify-content:space-between;
+
+    width:1390px;
+    height:146px;
+  }
+  /* END OF HOME2-HERO4 */
