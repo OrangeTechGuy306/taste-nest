@@ -325,6 +325,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 90px;
 }
@@ -333,6 +334,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 90px;
 }
@@ -361,4 +363,618 @@
   align-items: center;
   gap: 80px;
   padding-bottom: 40px;
+}
+
+.section-one {
+  min-height: 80vh;
+}
+
+.section-one img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.popular-fast-food-container{
+  background-color: #F5F8FD;
+}
+
+.fast-food-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 60px 30px;
+}
+
+.fast-food-details h2:nth-child(1){
+  font-family: var(--oswald-font);
+  font-style: bold;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--popular-food-details-color);
+}
+
+.fast-food-details h2:nth-child(2){
+  font-family: var(--oswald-font);
+  font-size: 60px;
+  font-size: bold;
+  font-weight: 700;
+}
+
+.top-fast-food-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.delicious-burger{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delicious-burger-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+}
+
+.delicious-burger-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.delicious-burger-body span{
+  background-color: #FFC222;
+  width: 48.97px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.delicious-burger-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.delicious-burger-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.delicious-burger-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.delicious-burger-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.grilled-chicken{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grilled-chicken-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   position: relative; 
+}
+
+.grilled-chicken-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.grilled-chicken-body span{
+  background-color: #FFC222;
+  width: 39.69px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.grilled-chicken-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.grilled-chicken-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.grilled-chicken-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.grilled-chicken-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.ruti-chicken{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ruti-chicken-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   position: relative;
+}
+
+.ruti-chicken-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.ruti-chicken-body span{
+  background-color: #FFC222;
+  width: 47.67px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ruti-chicken-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.ruti-chicken-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.ruti-chicken-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.ruti-chicken-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.fastfood-combo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fastfood-combo-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   position: relative;
+}
+
+.fastfood-combo-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.fastfood-combo-body span{
+  background-color: #FFC222;
+  width: 47.23px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fastfood-combo-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.fastfood-combo-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.fastfood-combo-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.fastfood-combo-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.bottom-fast-food-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-block: 60px;
+}
+
+.chicago-deep-pizza{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chicago-deep-pizza-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   position: relative;
+}
+
+.chicago-deep-pizza-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.chicago-deep-pizza-body span{
+  background-color: #FFC222;
+  width: 47.08px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chicago-deep-pizza-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.chicago-deep-pizza-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.chicago-deep-pizza-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.chicago-deep-pizza-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.chinese-pasta{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chinese-pasta-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   position: relative;
+}
+
+.chinese-pasta-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.chinese-pasta-body span{
+  background-color: #FFC222;
+  width: 47.02px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.chinese-pasta-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.chinese-pasta-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.chinese-pasta-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.chinese-pasta-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.burger-king{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burger-king-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   position: relative; 
+}
+
+.burger-king-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.burger-king-body span{
+  background-color: #FFC222;
+  width: 47.08px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.burger-king-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.burger-king-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.burger-king-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.burger-king-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.ruti-beef{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ruti-beef-header{
+  background-color: white;
+  width: 300px;
+  height: 306px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+   position: relative;
+}
+
+.ruti-beef-body{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block: 20px 10px;
+}
+
+.ruti-beef-body span{
+  background-color: #FFC222;
+  width: 39.68px;
+  height: 36px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ruti-beef-body span p{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  color: var(--navitem-color);
+  
+}
+
+.ruti-beef-body p:nth-child(2){
+  font-family: var(--oswald-font);
+  text-decoration: line-through;
+  font-size: 17px;
+  color: #5C5C5B;
+  font-weight: 400;
+}
+
+.ruti-beef-body p:nth-child(3){
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 16px;
+  color: #5C5C5B;
+}
+
+.ruti-beef-footer h2{
+  font-family: var(--oswald-font);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--navitem-color);
+}
+
+.popular-fast-food-btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+}
+
+.popular-fast-food-btn button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: #EE284B;
+  width: 211.36px;
+  height: 65px;
+  border-radius: 9px;
+  border: none;
+}
+
+.popular-fast-food-btn button h2{
+  font-family: var(--oswald-font);
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+
+.overlay img{
+  position: absolute;
+  top: -25px;
+  left: 15px;
+}
+.trending-food img{
+  width: 100%;
+}
+
+.popular-dish img{
+  width: 100%;
+  padding-block: 30px 70px;
+}
+
+.section-details{
+  display: flex;
+  justify-content: center;
+}
+
+.section-details img{
+  width: 70%;
 }
