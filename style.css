@@ -625,7 +625,7 @@
   /* END OF HOME2-HERO3 */
 
   /* START OF HOME2-HERO4 */
-  .home2-hero4{
+  .hero4-home2{
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -654,3 +654,159 @@
     height:146px;
   }
   /* END OF HOME2-HERO4 */
+
+  /* START OF DELICIOUS MENUS / BEST SOLUTIONS / HOME2-HERO5 */
+    .hero5-home2{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content: center;
+
+      background-color: #F5F8FD;
+    }
+    /* DELICIOUS MENUS */
+      .delicious-menus-header{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+      }
+      .delicious-menus-header h1{
+        font-size:60px;
+        font-family:var(--fredoka-font);
+        color:#000000;
+
+        width:463.39px;
+        height:78.19px;
+      }
+
+      .delicious-menus-header-underline{
+        width:270px;
+        height:10px;
+        border-radius:30px;
+        background: var(--secondary-color);
+      }
+    /* END OF DELICIOUS MENUS */
+
+    /* BEST SOLUTIONS */
+      .best-solutions-header{
+        width:1330px;
+        height:220.36px;
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+      }
+
+      .best-solutions-header-side1{
+        display:flex;
+        flex-direction:column;
+
+        width:520px;
+        height:191.36px;
+      }
+      .best-solutions-header-side1 h1{
+        font-family:var(--fredoka-font);
+      }
+      .best-solutions-header-side1 h1:nth-child(1){
+        color:var(--primary-color);
+        font-size:18px;
+
+        letter-spacing:2px;
+        text-transform:uppercase;
+      }
+      .best-solutions-header-side1 h1:nth-child(2){
+        color:#000000;
+        font-size:60px;
+
+        line-height:72px;
+      }
+
+      .best-solutions-header-side2{
+        width:450px;
+        height:120.96px;
+      }
+      .best-solutions-header-side2 p{
+        font-family:var(--epilogue-font);
+        font-size:18px;
+
+        color:#555555;
+
+        line-height:30px;
+      }
+
+      .best-solutions-icon-carousel{
+        width:1390px;
+        height:281.5px;
+
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+      }
+      .best-solutions-icon-and-content{
+        width:302.5px;
+        height:281.5px;
+
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-items:center;
+      }
+
+      .best-solutions-icon-outer{
+        width:152px;
+        height:152px;
+        border-radius:50%;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        background-color: var(--secondary-color);
+      }
+      .best-solutions-icon-inner{
+        width:135px;
+        height:135px;
+        border-radius:50%;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+        background-color: var(--secondary-color);
+        border:3px solid white;
+      }
+
+      .best-solutions-icon-content{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+
+        text-align:center;
+        align-items:center;
+        justify-content: center;
+      }
+      .best-solutions-icon-content h1{
+        font-family:var(--fredoka-font);
+        font-size:26px;
+
+        color:#000000;
+
+        /* width:183.6px;
+        height:31.2px; */
+      }
+      .best-solutions-icon-content p{
+        font-family: var(--epilogue-font);
+        font-size:16px;
+
+        line-height:26.67px;
+
+        color:#000000;
+
+        width:272.31px;
+        height:53.34px;
+      }
+    /* END OF BEST SOLUTIONS */
+  /* END OF DELICIOUS MENUS / BEST SOLUTIONS / HOME2-HERO5 */
