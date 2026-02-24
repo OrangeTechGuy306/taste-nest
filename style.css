@@ -679,13 +679,6 @@
         width:463.39px;
         height:78.19px;
       }
-
-      .delicious-menus-header-underline{
-        width:270px;
-        height:10px;
-        border-radius:30px;
-        background: var(--secondary-color);
-      }
     /* END OF DELICIOUS MENUS */
 
     /* BEST SOLUTIONS */
@@ -810,3 +803,270 @@
       }
     /* END OF BEST SOLUTIONS */
   /* END OF DELICIOUS MENUS / BEST SOLUTIONS / HOME2-HERO5 */
+
+  /* START OF HOME2-HERO6*/
+    .hero6-home2{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+    }
+    .hero6-home2-side1{
+      width:1330px;
+      height:713.8px;
+    }
+    .hero6-home2-side-1-title{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+    }
+    .hero6-home2-side-1-title h1{
+      font-size:60px;
+      font-family: var(--fredoka-font);
+      font-weight:bold;
+
+      width:493.67px;
+      height:78.18px;
+    }
+    /* START OF SIDE1-HOME2-HERO6 */
+    .hero6-home2-side-1-content{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items:center;
+      
+      width:1330px;
+      height:577.62px;
+    }
+    .hero6-home2-side-1-content-1-offeralert-container{
+      width:240.36px;
+      height:34px;
+
+      border-radius:30px;
+
+      background-color: var(--secondary-color);
+
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .hero6-home2-side-1-content-1-offeralert{
+      font-size:18px;
+      font-family:var(--fredoka-font);
+      
+      letter-spacing: 2px;
+
+      text-transform: uppercase;
+    }
+
+    .hero6-home2-side-1-content-1 > h1{
+      font-family:var(--fredoka-font);
+      font-size:40px;
+
+    }
+
+    .hero6-home2-side-1-content-1-features-grouped .hero6-home2-side-1-content-1-features-grouped-half:nth-child(1){
+      width:189.34px;
+      height:68.31px;
+    }
+    .hero6-home2-side-1-content-1-features-grouped .hero6-home2-side-1-content-1-features-grouped-half:nth-child(2){
+      width:198.25px;
+      height:68.31px;
+    }
+
+    .hero6-home2-side-1-content-1-features-grouped{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .hero6-home2-side-1-content-1-features-grouped-half{
+      display:flex;
+      flex-direction:column;
+      justify-content: space-between;
+      /* align-items: center; */
+    }
+    .hero6-home2-side-1-content-1-features-grouped-half div{
+      display: flex;
+      gap:10px;
+    }
+    .hero6-home2-side-1-content-1-features-grouped-half div > img{
+      width:16.2px;
+      height:16px;
+    }
+    .hero6-home2-side-1-content-1-features-grouped-half div > p{
+      font-family:var(--fredoka-font);
+      font-size:16px;
+
+      color:var(--fredoka-text-home2);
+
+      font-weight:bold;
+    }
+
+    .hero6-home2-side-1-content-1-pricing{
+      display:flex;
+      align-items:center;
+    }
+    .hero6-home2-side-1-content-1-pricing div{
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+
+    .hero6-home2-side-1-content-1-pricing div > h1{
+      font-family: var(--fredoka-font);
+    }
+
+    .hero6-home2-side-1-content-1-pricing div:nth-child(1){
+      width:74.09px;
+      height:43.33px;
+
+      display:flex;
+      align-items:end;
+      justify-content: start;
+    }
+    .hero6-home2-side-1-content-1-pricing div:nth-child(1) > h1{
+      color:var(--fredoka-text-home2);
+      font-size:26px;
+      text-decoration:line-through;
+    }
+    
+    .hero6-home2-side-1-content-1-pricing div:nth-child(2){
+      width:105.89px;
+      height:66.66px;
+
+      display:flex;
+      align-items:end;
+      justify-content: start;
+    }
+    .hero6-home2-side-1-content-1-pricing div:nth-child(2) > h1{
+      font-size:40px;
+    }
+    .hero6-home2-side-1-content-1-pricing div:nth-child(2) > h1 > span{
+      color:var(--primary-color);
+      font-family: var(--fredoka-font);
+    }
+
+    .hero6-home2-side-1-content-2{
+      width:731.5px;
+      height:560.63px;
+
+      position:relative;
+    }
+
+    .hero6-home2-side-1-content-2-details-divs{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+
+      position:absolute;
+      top:94px;
+      left:600px;
+    }
+    .hero6-home2-side-1-content-2-details-divs div{
+      background-color: var(--secondary-color);
+
+      width:100px;
+      height:92.66px;
+      border-radius:30px;
+
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero6-home2-side-1-content-2-details-divs div > h1{
+      font-family:var(--fredoka-font);
+    }
+    .hero6-home2-side-1-content-2-details-divs div > h1:nth-child(1){
+      font-size:26px;
+    }
+    .hero6-home2-side-1-content-2-details-divs div > h1:nth-child(2){
+      font-size:16px;
+
+      text-transform:uppercase;
+    }
+    /* END OF SIDE1-HOME2-HERO6 */
+
+    /* START OF SIDE2-HOME2-HERO6 */
+    .hero6-home2-side2{
+      width:1330px;
+      height:463.31px;
+
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+
+      background-color: #F5F8FD;
+
+      border:5px solid var(--secondary-color);
+      border-radius:30px;
+    }
+
+    .hero6-home2-side2-left{
+      width:665px;
+      height:463.31px;
+
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:10px;
+    }
+    .hero6-home2-side2-left-imggroup {
+      display:flex;
+      flex-direction: row;
+      gap:10px;
+    }
+    .hero6-home2-side2-left-imggroup img{
+      width:310px;
+      height:206.66px;
+      border-radius:30px;
+    }
+
+    .hero6-home2-side2-right{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      gap:20px;
+    }
+    .hero6-home2-side2-right-title{
+      width:575px;
+      height:120px;
+    }
+    .hero6-home2-side2-right-title h1{
+      font-family:var(--fredoka-font);
+      font-size:50px;
+    }
+
+    .hero6-home2-side2-right p{
+      font-size:18px;
+      font-family: var(--epilogue-font);
+      line-height:30px;
+
+      width:558.56px;
+      height:60.97px;
+    }
+
+    .hero6-home2-side2-right > h1{
+      width:575px;
+      height:49.33px;
+
+      font-family: var(--fredoka-font);
+
+      font-size:20px;
+      line-height:33.33px;
+    }
+    
+    /* END OF SIDE2-HOME2-HERO6 */
+  /* END OF HOME2-HERO6 */
+
+  /* COMMON ITEMS */
+  .yellowunderline{
+    width:270px;
+    height:10px;
+    border-radius:30px;
+    background: var(--secondary-color);
+  }
