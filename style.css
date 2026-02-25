@@ -268,10 +268,18 @@
       align-items: center; 
       justify-content: center;
     }
+    .hero1-home2-grouped{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
 
-    .hero1-home2-main{
       width: 1330px;
       height: 650px;
+    }
+
+    .hero1-home2-main{
+      /* width: 1330px;
+      height: 650px; */
 
       padding-inline:50px;
 
@@ -354,150 +362,207 @@
         border:3px solid var(--input-home2);
       }
     /* END OF HOME2-HERO INPUTS AND BUTTONS*/
-  /* END OF HOME2-HERO1 */
+      .hero1-home2-secondary{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 60px;
 
-  /* HOME2-HERO2 */
-      .hero2-home2{
-        padding-block:100px;
+        width:635px;
+        height:620px;
       }
-      .welcome-to-foodio{
-        padding:10px;
 
-        width:1330px;
-        height:555px;
+      .hero1-home2-secondary-column-img img{
+        width:280px;
+        height:460px;
+
+        border-radius:150px;
+      }
+
+      .hero1-home2-secondary-column-2{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:100px;
+      }
+      .hero1-home2-secondary-column-2-freedelivery{
+        width:260px;
+        height:88px;
+
+        border-radius:70px;
+
+        background-color: #ffffff;
 
         display:flex;
         flex-direction:row;
-        justify-content: space-between;
         align-items: center;
-        margin:auto;
-      }
-
-      .hero2-home2-1st-div img{
-        width:369px;
-        height:525px;
-
-        border-radius:170px;
-      }
-
-      .hero2home2-2nd-div{
-        display:flex;
-        flex-direction:column;
-        justify-items: center;
+        justify-content: center;
         gap:20px;
 
-        text-align:center;
+        box-shadow: 0px 0px 50px -13px #00000033;
       }
+      .hero1-home2-secondary-column-2-freedelivery-icon{
+        width:60px;
+        height:60px;
 
-      .hero2home2-2nd-div-headertext{
-        width:233.31px;
-        height:30px;
+        background-color: var(--secondary-color);
 
-        margin:auto;
-      }
-      .hero2home2-2nd-div-headertext h1{
-        font-family:var(--fredoka-font);
-        color:var(--primary-color);
-
-        font-size:18px;
-        letter-spacing: 2px;
-        line-height:30px;
-
-        text-transform:uppercase;
-      }
-
-      .hero2home2-2nd-div-second-header{
-        width:427.05px;
-        height:150.19px;
-
-        margin:auto;
-      }
-      .hero2home2-2nd-div-second-header h1{
-        font-size:60px;
-        line-height:72px;
-
-        font-family:var(--fredoka-font);
-        color:#000000
-      }
-
-      .hero2home2-2nd-div-sample-text{
-        width:426.69px;
-        height:80.82px;
-
-        margin:auto;
-      }
-      .hero2home2-2nd-div-sample-text p{
-        font-family:var(--epilogue-font);
-
-        font-size:16px;
-        line-height:26.67px;
-
-        color:var(--fredoka-text-home2);
-      }
-
-      .hero2home2-2nd-div-openhours{
-        width:502px;
-        height:26.66px;
-
-        margin:auto;
-      }
-      .hero2home2-2nd-div-openhours p{
-        font-size:16px;
-        line-height:26.67px;
-
-        font-family:var(--fredoka-font);
-        font-weight:bold;
-
-        color:var(--fredoka-text-home2)
-      }
-
-      .hero2home2-2nd-div-phone-number{
-        width:502px;
-        height:39.98px;
-
-        margin:auto;
-      }
-      .hero2home2-2nd-div-phone-number h1{
-        font-size:24px;
-        line-height:40px;
-
-        font-family:var(--fredoka-font);
-        font-weight:bold;
-        color:#000000;
-        text-decoration:underline
-      }
-
-      .hero2-home2-3rd-main-div-top img{
-        width:353px;
-        height:221px;
-        border-radius:170px;
-      }
-      .hero2-home2-3rd-main-div{
-        display:flex;
-        flex-direction:column;
-        align-items:center;
-        justify-content:space-between;
-
-        gap:70px;
-      }
-      .hero2-home2-3rd-main-div-bottom{
-        background: url(assets/im3.png);
-
-        width:228px;
-        height:228px;
+        border-radius: 50%;
 
         display:flex;
-        align-items:center;
+        align-items: center;
         justify-content: center;
       }
-      .hero2-home2-3rd-main-div-bottom img{
-        width:161px;
-        height:161px;
+      .hero1-home2-secondary-column-2-freedelivery h1{
+        font-family: var(--fredoka-font);
+        font-size:20px;
 
-        border-radius:50%;
+        width:146.58px;
+        height:48px;
       }
-    /* END OF HOME2-HERO2 */
+  /* END OF HOME2-HERO1 */
 
+  /* HOME2-HERO2 */
+    .hero2-home2{
+      padding-block:100px;
+    }
+    .welcome-to-foodio{
+      padding:10px;
+
+      width:1330px;
+      height:555px;
+
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+      margin:auto;
+    }
+
+    .hero2-home2-1st-div img{
+      width:369px;
+      height:525px;
+
+      border-radius:170px;
+    }
+
+    .hero2home2-2nd-div{
+      display:flex;
+      flex-direction:column;
+      justify-items: center;
+      gap:20px;
+
+      text-align:center;
+    }
+
+    .hero2home2-2nd-div-headertext{
+      width:233.31px;
+      height:30px;
+
+      margin:auto;
+    }
+    .hero2home2-2nd-div-headertext h1{
+      font-family:var(--fredoka-font);
+      color:var(--primary-color);
+
+      font-size:18px;
+      letter-spacing: 2px;
+      line-height:30px;
+
+      text-transform:uppercase;
+    }
+
+    .hero2home2-2nd-div-second-header{
+      width:427.05px;
+      height:150.19px;
+
+      margin:auto;
+    }
+    .hero2home2-2nd-div-second-header h1{
+      font-size:60px;
+      line-height:72px;
+
+      font-family:var(--fredoka-font);
+      color:#000000
+    }
+
+    .hero2home2-2nd-div-sample-text{
+      width:426.69px;
+      height:80.82px;
+
+      margin:auto;
+    }
+    .hero2home2-2nd-div-sample-text p{
+      font-family:var(--epilogue-font);
+
+      font-size:16px;
+      line-height:26.67px;
+
+      color:var(--fredoka-text-home2);
+    }
+
+    .hero2home2-2nd-div-openhours{
+      width:502px;
+      height:26.66px;
+
+      margin:auto;
+    }
+    .hero2home2-2nd-div-openhours p{
+      font-size:16px;
+      line-height:26.67px;
+
+      font-family:var(--fredoka-font);
+      font-weight:bold;
+
+      color:var(--fredoka-text-home2)
+    }
+
+    .hero2home2-2nd-div-phone-number{
+      width:502px;
+      height:39.98px;
+
+      margin:auto;
+    }
+    .hero2home2-2nd-div-phone-number h1{
+      font-size:24px;
+      line-height:40px;
+
+      font-family:var(--fredoka-font);
+      font-weight:bold;
+      color:#000000;
+      text-decoration:underline
+    }
+
+    .hero2-home2-3rd-main-div-top img{
+      width:353px;
+      height:221px;
+      border-radius:170px;
+    }
+    .hero2-home2-3rd-main-div{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:space-between;
+
+      gap:70px;
+    }
+    .hero2-home2-3rd-main-div-bottom{
+      background: url(assets/im3.png);
+
+      width:228px;
+      height:228px;
+
+      display:flex;
+      align-items:center;
+      justify-content: center;
+    }
+    .hero2-home2-3rd-main-div-bottom img{
+      width:161px;
+      height:161px;
+
+      border-radius:50%;
+    }
   /* END OF HOME2-HERO2 */
 
 
@@ -621,7 +686,6 @@
   .hero-three-home2-reserve-button{
     margin:20px;
   }
-
   /* END OF HOME2-HERO3 */
 
   /* START OF HOME2-HERO4 */
@@ -660,7 +724,7 @@
       display:flex;
       flex-direction:column;
       align-items:center;
-      justify-content: center;
+      /* justify-content: center; */
 
       background-color: #F5F8FD;
     }
@@ -680,6 +744,76 @@
         height:78.19px;
       }
     /* END OF DELICIOUS MENUS */
+
+    /* MENU CARDS */
+    .menu-cards-grouped{
+      display:flex;
+      justify-content: center;
+      flex-direction: row;
+
+      width:1330px;
+      /* height:636.27px; */
+
+      gap:30px;
+      margin-top:50px;
+
+      align-items:center;
+    }
+    .menu-card{
+      background: #FFFFFF01;
+      border-radius: 30px;
+      box-shadow: 0px 0px 50px -13px #00000033;
+
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap:30px;
+
+      padding-inline:20px;
+      padding-block-start:50px;
+      padding-block-end:20px;
+    }
+
+    .line{
+      border: 1px solid #DEDEDE;
+    }
+    .yellowline2{
+      background-color: var(--secondary-color);
+      height:5px;
+      width:50px;
+      border-radius:10px;
+    }
+
+    .menu-card-header h1{
+      font-family: var(--fredoka-font);
+    }
+
+    .menu-cards-options{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      gap:20px;
+    }
+    .menu-cards-options-title-and-price{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+    }
+    .menu-cards-options-title-and-price h1{
+      font-size:20px;
+      font-family:var(--fredoka-font);
+    }
+    .menu-cards-options-title-and-price h1:nth-child(2){
+      color: var(--primary-color);
+    }
+
+    .menu-cards-options-content p{
+      width:314.81px;
+      height:46.66px;
+
+      font-family: var(--epilogue-font);
+      font-size: 14px;
+    }
 
     /* BEST SOLUTIONS */
       .best-solutions-header{
@@ -1064,6 +1198,186 @@
   /* END OF HOME2-HERO6 */
 
   /*  HERO7 SECTION */
+    .hero7-home2{
+      background:url(assets/bgimg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      /* width:1920px; */
+      height:675px;
+
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .banner-hero7{
+      width:1330px;
+      height:550px;
+
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .banner-left-hero7-text{
+      width:635px;
+      height:269.55px;
+
+      color:#FFFFFF;
+    }
+    .banner-left-hero7-text h1{
+      font-family: var(--fredoka-font);
+    }
+    .banner-left-hero7-text h1:nth-child(1){
+      font-size:18px;
+
+      letter-spacing:2px;
+
+      text-transform: uppercase;
+    }
+    .banner-left-hero7-text h1:nth-child(2){
+      font-size:60px;
+
+      width:594.88px;
+      height:228.38px;
+    }
+
+    .hero7-home2-banner-left-options{
+      width:665px;
+      height:177.17px;
+
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      gap:50px;
+    }
+    .hero7-14yexp{
+      width:225px;
+      height:147.17px;
+
+      border-radius: 30px;
+
+      background-color: var(--secondary-color);
+
+      display:flex;
+      flex-direction:column;
+      align-items: flex-start;
+      justify-content: center;
+
+      padding:25px;
+    }
+    .hero7-14yexp > h1{
+      width:155px;
+      height:67.99px;
+
+      font-size:28px;
+      font-family: var(--fredoka-font);
+    }
+
+    .hero-7-14-years-exp-stars{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+
+      gap:5px;
+    }
+    .hero-7-14-years-exp-stars img{
+      width:18.31px;
+      height:16px;
+    }
+
+
+    .watchvid-hero7{
+      display:flex;
+      flex-direction:row;
+      gap:20px;
+      align-items: center;
+    }
+    .watchvid-hero7 h1{
+      font-size: 16px;
+      font-family: var(--fredoka-font);
+      color:#FFFFFF;
+    }
+    .watchvid-hero7-icon{
+      width:75px;
+      height:75px;
+      border-radius:50%;
+
+      border:3px solid #FFFFFF;
+
+      background-color: #ffffffA1;
+    }
+
+    .banner-right{
+      position:relative;
+      width:600px;
+      height:600px;
+    }
+    .banner-right-circles{
+      width:286px;
+      height:286px;
+      border-radius:50%;
+      border:8px solid var(--secondary-color);
+
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+      position: absolute;
+    }
+    .banner-right-circles img{
+      width:260px;
+      height:260px;
+      border-radius:50%;
+    }
+
+    .banner-right-circles-1 {
+      top: 0;
+      left: 80px;
+    }
+
+    .banner-right-circles-2 {
+      top: 140px;
+      left: 380px;
+    }
+
+    .banner-right-circles-3 {
+      bottom:0;
+      left: 100px;
+    }
+
+    .banner-right-arrow-text-box{
+      width:170px;
+      height:53.31px;
+
+      position: absolute;
+
+      bottom:0;
+      right:0;
+
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      gap:50px;
+    }
+    .banner-right-arrow-text-box h1{
+      font-family: var(--fredoka-font);
+      font-size:16px;
+      text-align: center;
+      color:#ffffff;
+    }
+    .banner-right-arrow-text-box > img{
+      position:absolute;
+      bottom:50px;
+      right:50px;
+    }
+
+
   /* END OF HERO7 SECTION */
 
 
@@ -1091,7 +1405,7 @@
       justify-content: space-between;
       align-items: center;
 
-      width:1390px;
+      width:1330px;
       height:446.72px;
     }
     .news-card{
@@ -1232,15 +1546,6 @@
   font-size: 18px;
 }
 
-
-
-
-
-
-
-
-
-
 .hero9-home2-form-section{
   width:856.66px;
   height:325px;
@@ -1281,3 +1586,25 @@
     border-radius:30px;
     background: var(--secondary-color);
   }
+
+  .hero-menu-btn {
+    border: 3px solid var(--primary-color);
+    width: 180.41px;
+    height: 68.19px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-menu-btn button {
+    width: 189.91px;
+    height: 55px;
+    border-radius: 12px;
+    background-color: var(--primary-color);
+    color: white;
+    font-family: var(--fredoka-font);
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    margin-left: -20px;
+}
