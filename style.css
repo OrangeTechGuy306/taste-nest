@@ -263,7 +263,7 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      height:100vh;
+      height:80vh;
       display: flex;
       align-items: center; 
       justify-content: center;
@@ -1404,6 +1404,7 @@
       flex-direction:row;
       justify-content: space-between;
       align-items: center;
+      margin-top:30px;
 
       width:1330px;
       height:446.72px;
@@ -1596,15 +1597,19 @@
     align-items: center;
 }
 
-.hero-menu-btn button {
-    width: 189.91px;
-    height: 55px;
-    border-radius: 12px;
-    background-color: var(--primary-color);
-    color: white;
-    font-family: var(--fredoka-font);
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    margin-left: -20px;
-}
+  .hero-menu-btn button {
+      width: 189.91px;
+      height: 55px;
+      border-radius: 12px;
+      background-color: var(--primary-color);
+      color: white;
+      font-family: var(--fredoka-font);
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      margin-left: -20px;
+  }
+
+  section{
+    padding-block:50px;
+  }
