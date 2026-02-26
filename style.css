@@ -974,6 +974,11 @@
       width:1330px;
       height:577.62px;
     }
+    .hero6-home2-side-1-content-1{
+      display:flex;
+      flex-direction:column;
+      gap:20px;
+    }
     .hero6-home2-side-1-content-1-offeralert-container{
       width:240.36px;
       height:34px;
@@ -1081,6 +1086,9 @@
     .hero6-home2-side-1-content-1-pricing div:nth-child(2) > h1 > span{
       color:var(--primary-color);
       font-family: var(--fredoka-font);
+    }
+    .hero6-home2-addcart{
+      margin-inline:20px;
     }
 
     .hero6-home2-side-1-content-2{
