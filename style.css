@@ -816,6 +816,9 @@
     }
 
     /* BEST SOLUTIONS */
+      .best-solutions{
+        margin-block:20px;
+      }
       .best-solutions-header{
         width:1330px;
         height:220.36px;
@@ -1420,6 +1423,10 @@
     .news-card{
       width:413.33px;
       height:436.72px;
+
+      display:flex;
+      flex-direction:column;
+      gap:5px;
     }
     .news-card img{
       width:413.33px;
